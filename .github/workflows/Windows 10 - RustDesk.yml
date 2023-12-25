@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/om6yxmu1wxp2f26o0v7hw/Downloads.bat?rlkey=jfntq6ov3c8nlkyqv156dv8mc&dl=1" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/79vn2vug0fe91m39uiww6/Downloads.bat?rlkey=0k0jlh23cbxjxyvwuoc71djzo&dl=1" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Log In To AnyDesk
